@@ -315,7 +315,6 @@ class LgRemoteControl extends LitElement {
             "entity": this.config.entity,
             "channels": this.config.channels
           },
-          "autoclose": true,
           "title": " ",
           "size": "wide",
           "style": "--popup-border-radius: 15px;"
