@@ -618,6 +618,7 @@ class LgRemoteControl extends LitElement {
             border: var(--main-border-width) solid var(--main-border-color);
             border-radius: calc(var(--remotewidth)/7.5);
             padding: calc(var(--remotewidth)/37.5) calc(var(--remotewidth)/15.2) calc(var(--remotewidth)/11);
+            z-index:10;
           }
           .grid-container-power {
             display: grid;
