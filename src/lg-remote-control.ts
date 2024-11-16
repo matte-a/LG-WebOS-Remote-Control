@@ -603,9 +603,10 @@ class LgRemoteControl extends LitElement {
             animation: blinker 1.5s linear infinite;
             color: red;
           }
-          .card, .ripple:after {
+          .ripple:after {
             width: 100%;
-            height: 100%}
+            height: 100%
+          }
           .card {
             display: flex;
             justify-content: center;
